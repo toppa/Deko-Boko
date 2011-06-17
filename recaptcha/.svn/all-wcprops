@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/115448/deko-boko-a-recaptcha-contact-form-plugin/trunk/recaptcha
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/46352/deko-boko-a-recaptcha-contact-form-plugin/trunk/recaptcha/LICENSE
+END
+recaptchalib.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/115448/deko-boko-a-recaptcha-contact-form-plugin/trunk/recaptcha/recaptchalib.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/46352/deko-boko-a-recaptcha-contact-form-plugin/trunk/recaptcha/README
+END
