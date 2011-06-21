@@ -8,8 +8,8 @@
 <?php
     // you can comment out or delete this "if" block if you don't want to
     // display the welcome message that's in your Deko Boko Settings.
-    if ($dekoboko_options['welcome']) {
-        echo "<p>" . $dekoboko_options['welcome'] . "</p>";
+    if ($this->settings['welcome']) {
+        echo "<p>" . $this->settings['welcome'] . "</p>";
     }
 ?>
 
@@ -49,7 +49,7 @@
 </li>
 
 <li><label for="recaptcha_challenge_field">Are You Human?<span class="dekoboko_required">*</span><br />
-    <span style="font-size: x-small;"><a href="http://recaptcha.net/popuphelp/" onclick="window.open('http://recaptcha.net/popuphelp/','name','height=600,width=500'); return false;" title="Help">What's this?</a></span></label>
+    <span style="font-size: x-small;"><a href="http://www.google.com/recaptcha/help" onclick="window.open('http://www.google.com/recaptcha/help','name','height=600,width=500'); return false;" title="Help">What's this?</a></span></label>
     <?php echo $recaptcha_html ?>
 </li>
 </ol>
