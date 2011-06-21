@@ -70,9 +70,11 @@ Why write yet another email contact form for WordPress? There are two things tha
 * Added uninstall.php; removed uninstall option from form on settings page (now uninstalls from main plugins menu)
 * Reads recaptcha keys from recaptcha when activated, but now copies them to Deko Boko settings and uses them from there
 * Updated recaptchalib to latest version (1.11)
+* Modified recaptchalib to wrap it in its own class, to avoid conflicts with other recaptcha plugins
 * 'manage_options' capability required for managing settings (was using old user levels number system)
 * On activation, defaults to address in WordPress' admin_email setting for the recipient
 * Updated link for recaptcha help pop-up window to new location at google.com
+* Added exactly one unit test (it's a start!)
 
 = 1.2.2 =
 * Added  Spanish and French translations

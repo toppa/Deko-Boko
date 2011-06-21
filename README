@@ -1,0 +1,19 @@
+Deko Boko: A Recaptcha Contact Form Plugin for WordPress
+
+Deko Boko is a simple but highly extensible contact form, integrating reCAPTCHA for handling spam.
+
+Please see readme.txt for additional information (GitHub wants a README, the
+WordPress plugin repository wants a readme.txt...)
+
+IMPORTANT: When downloading from GitHub, you must rename the folder to
+deko-boko-a-recaptcha-contact-form-plugin before uploading to your WordPress
+plugin directory.
+
+ALSO IMPORTANT: install the toppa-libs plugin before installing this one,
+as it contains required libraries: https://github.com/toppa/toppa-libs/
+
+GitHub contains the latest revisions of code for this project, which may
+not always be thoroughly tested.
+
+Official releases are provided at the WordPress plugin repository:
+http://wordpress.org/extend/plugins/deko-boko-a-recaptcha-contact-form-plugin/
