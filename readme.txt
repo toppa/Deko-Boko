@@ -66,7 +66,7 @@ Why write yet another email contact form for WordPress? There are two things tha
 
 == Changelog ==
 
-= 1.3.1=
+= 1.3.1 =
 * Bug fix: correctly call recaptchalib functions from local version of RecaptchaForDekoBoko class
 * Remove extraneous recaptchalib files
 * Include timezone when rendering time in "cc me" emails
