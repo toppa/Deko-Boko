@@ -63,10 +63,12 @@ Why write yet another email contact form for WordPress? There are two things tha
 == Changelog ==
 
 = 1.3.1=
-* Bug fix: correctly call recaptchalib functions from local version of recaptchalib class
+* Bug fix: correctly call recaptchalib functions from local version of RecaptchaForDekoBoko class
 * Remove extraneous recaptchalib files
 * Include timezone when rendering time in "cc me" emails
 * Use Toppa Lib's function facade for getting blog name
+* Added !important to css for dekoboko errors div
+* Updated label tag for "Are You Human" to reflect new recaptcha input name
 
 = 1.3 =
 * First round of a major refactoring, goal is to use Agile coding practices

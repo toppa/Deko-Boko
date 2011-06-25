@@ -1,9 +1,7 @@
 <?php
 
-//require_once('RecaptchaForDekoBoko.php');
-
 class DekoBoko {
-    private $version = '1.3';
+    private $version = '1.3.1';
     private $settings;
     private $functionsFacade;
     private $defaultTemplate = 'contact-form.php';
