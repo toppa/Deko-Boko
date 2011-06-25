@@ -48,7 +48,7 @@
     <span style="font-size: x-small;">Check this box to send a copy of your message to yourself.</span>
 </li>
 
-<li><label for="recaptcha_challenge_field">Are You Human?<span class="dekoboko_required">*</span><br />
+<li><label for="recaptcha_response_field">Are You Human?<span class="dekoboko_required">*</span><br />
     <span style="font-size: x-small;"><a href="http://www.google.com/recaptcha/help" onclick="window.open('http://www.google.com/recaptcha/help','name','height=600,width=500'); return false;" title="Help">What's this?</a></span></label>
     <?php echo $recaptcha_html ?>
 </li>

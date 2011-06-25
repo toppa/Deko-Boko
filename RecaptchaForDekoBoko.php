@@ -32,6 +32,9 @@
  * THE SOFTWARE.
  */
 
+// Wrapped into a class by Michael Toppa, so it doesn't interfere with other
+// WordPress plugins that may be using recaptcha
+
 /**
  * The reCAPTCHA server URL's
  */
@@ -39,13 +42,12 @@ define("RECAPTCHA_API_SERVER", "http://www.google.com/recaptcha/api");
 define("RECAPTCHA_API_SECURE_SERVER", "https://www.google.com/recaptcha/api");
 define("RECAPTCHA_VERIFY_SERVER", "www.google.com");
 
-/**
- * Encodes the given data into a query string format
- * @param $data - array of string elements to be encoded
- * @return string - encoded request
- */
 class RecaptchaForDekoBoko {
-
+    /**
+     * Encodes the given data into a query string format
+     * @param $data - array of string elements to be encoded
+     * @return string - encoded request
+     */
     public static function _recaptcha_qsencode ($data) {
             $req = "";
             foreach ( $data as $key => $value )
@@ -55,8 +57,6 @@ class RecaptchaForDekoBoko {
             $req=substr($req,0,strlen($req)-1);
             return $req;
     }
-
-
 
     /**
      * Submits an HTTP POST to a reCAPTCHA server
@@ -92,8 +92,6 @@ class RecaptchaForDekoBoko {
 
             return $response;
     }
-
-
 
     /**
      * Gets the challenge HTML (javascript and non-javascript version).

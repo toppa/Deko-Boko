@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__) . '/recaptcha-php-1.11/recaptchalib.php');
+//require_once('RecaptchaForDekoBoko.php');
 
 class DekoBoko {
     private $version = '1.3';
@@ -175,7 +175,7 @@ class DekoBoko {
             $useSsl = false;
         }
 
-        $recaptcha_html = $jsSettings . recaptcha_get_html($this->settings['public_key'], null, $useSsl);
+        $recaptcha_html = $jsSettings . RecaptchaForDekoBoko::recaptcha_get_html($this->settings['public_key'], null, $useSsl);
         require $this->dir . "/display/$template";
         $output = ob_get_contents();
         ob_end_clean();
@@ -187,7 +187,7 @@ class DekoBoko {
             $this->submissionErrors[] = "<strong>" . __("Invalid Nonce", 'dekoboko') . "</strong>";
         }
 
-        $recaptchaResponse = recaptcha_check_answer($this->settings['private_key'], $_SERVER["REMOTE_ADDR"],
+        $recaptchaResponse = RecaptchaForDekoBoko::recaptcha_check_answer($this->settings['private_key'], $_SERVER["REMOTE_ADDR"],
             $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
 
         if (!$recaptchaResponse->is_valid) {
@@ -251,6 +251,10 @@ class DekoBoko {
             $subject .= $formFieldsData['subject'];
         }
 
+        else {
+             $subject = $this->settings['subject'];
+        }
+
         $messageBody = '';
 
         foreach ($formFieldsData as $k=>$v) {
@@ -298,14 +302,14 @@ class DekoBoko {
             $messageBodyFooter = $this->settings['cc_footer'];
 
             if ($messageBodyHeader) {
-                $messageBodyHeader = str_replace('BLOGNAME', get_option('blogname'), $messageBodyHeader);
-                $messageBodyHeader = str_replace('DATETIME', date('F jS, Y \a\t h:i A'), $messageBodyHeader);
+                $messageBodyHeader = str_replace('BLOGNAME', $this->functionsFacade->getSetting('blogname'), $messageBodyHeader);
+                $messageBodyHeader = str_replace('DATETIME', date('F jS, Y \a\t h:i A e'), $messageBodyHeader);
                 $messageBody = $messageBodyHeader . $messageBody;
             }
 
             if ($messageBodyFooter) {
-                $messageBodyFooter = str_replace('BLOGNAME', get_option('blogname'), $messageBodyFooter);
-                $messageBodyFooter = str_replace('DATETIME', date('F jS, Y \a\t h:i A'), $messageBodyFooter);
+                $messageBodyFooter = str_replace('BLOGNAME', $this->functionsFacade->getSetting('blogname'), $messageBodyFooter);
+                $messageBodyFooter = str_replace('DATETIME', date('F jS, Y \a\t h:i A e'), $messageBodyFooter);
                 $messageBody .= $messageBodyFooter;
             }
 

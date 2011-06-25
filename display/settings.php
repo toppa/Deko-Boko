@@ -59,13 +59,13 @@
     <tr valign="top">
     <td nowrap="nowrap"><?php _e('"CC Me" header:', 'dekoboko'); ?></td>
     <td nowrap="nowrap"><textarea name="dekoboko_options[cc_header]" cols="40" rows="5"><?php echo $this->settings['cc_header']; ?></textarea></td>
-    <td><strong>&laquo;</strong> <?php _e("If a user checks the 'CC Me' box, this text will appear at the top of the message that's sent to them. If you use the special word BLOGNAME in all capital letters, Deko Boko will substitute the name of your blog. If you use DATETIME it will substitute the date and time the email was sent. HTML is not currently supported.", 'dekoboko'); ?></td>
+    <td><strong>&laquo;</strong> <?php _e("If a user checks the 'CC Me' box, this text will appear at the top of the message that's sent to them. If you use the special word BLOGNAME in all capital letters, Deko Boko will substitute the name of your blog. If you use DATETIME it will substitute the date and time the email was sent. HTML is not supported.", 'dekoboko'); ?></td>
     </tr>
 
     <tr valign="top">
     <td nowrap="nowrap"><?php _e('"CC Me" footer:', 'dekoboko'); ?></td>
     <td nowrap="nowrap"><textarea name="dekoboko_options[cc_footer]" cols="40" rows="5"><?php echo $this->settings['cc_footer']; ?></textarea></td>
-    <td><strong>&laquo;</strong> <?php _e("If a user checks the 'CC Me' box, this text will appear at the bottom of the message that's sent to them. If you use the special word BLOGNAME in all capital letters, Deko Boko will substitute the name of your blog. If you use DATETIME it will substitute the date and time the email was sent. HTML is not currently supported.", 'dekoboko'); ?></td>
+    <td><strong>&laquo;</strong> <?php _e("If a user checks the 'CC Me' box, this text will appear at the bottom of the message that's sent to them. If you use the special word BLOGNAME in all capital letters, Deko Boko will substitute the name of your blog. If you use DATETIME it will substitute the date and time the email was sent. HTML is not supported.", 'dekoboko'); ?></td>
     </tr>
 
     <tr valign="top">

@@ -9,7 +9,7 @@
 
 /* Styling for error messages */
 .dekoboko_errors {
-    color: Red;
+    color: Red !important;
 }
 
 /* Styling for the success message div */

@@ -4,7 +4,7 @@ Donate link: http://www.toppa.com/deko-boko-wordpress-plugin
 Tags: email, contact, spam, captcha
 Requires at least: 3.0
 Tested up to: 3.1.3
-Stable tag: 1.3
+Stable tag: 1.3.1
 
 Deko Boko is a simple but highly extensible contact form, integrating reCAPTCHA for handling spam.
 
@@ -61,6 +61,12 @@ Why write yet another email contact form for WordPress? There are two things tha
 * For troubleshooting help, please [post a comment in my latest post on WordPress plugins](http://www.toppa.com/category/technical/wordpress-plugins/).
 
 == Changelog ==
+
+= 1.3.1=
+* Bug fix: correctly call recaptchalib functions from local version of recaptchalib class
+* Remove extraneous recaptchalib files
+* Include timezone when rendering time in "cc me" emails
+* Use Toppa Lib's function facade for getting blog name
 
 = 1.3 =
 * First round of a major refactoring, goal is to use Agile coding practices

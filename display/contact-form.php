@@ -35,7 +35,7 @@
     <span style="font-size: x-small;"><?php _e("Check this box to send a copy of your message to yourself.", 'dekoboko'); ?></span>
 </li>
 
-<li><label for="recaptcha_challenge_field"><?php _e("Are You Human?", 'dekoboko'); ?><span class="dekoboko_required">*</span><br />
+<li><label for="recaptcha_response_field"><?php _e("Are You Human?", 'dekoboko'); ?><span class="dekoboko_required">*</span><br />
     <span style="font-size: x-small;"><a href="http://www.google.com/recaptcha/help" onclick="window.open('http://www.google.com/recaptcha/help','name','height=600,width=500'); return false;" title="Help"><?php _e("What's this?", 'dekoboko'); ?></a></span></label>
     <?php echo $recaptcha_html ?>
 </li>
