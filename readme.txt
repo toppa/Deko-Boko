@@ -73,6 +73,7 @@ Why write yet another email contact form for WordPress? There are two things tha
 * Use Toppa Lib's function facade for getting blog name
 * Added !important to css for dekoboko errors div
 * Updated label tag for "Are You Human" to reflect new recaptcha input name
+* Revised .pot language translation file
 
 = 1.3 =
 * First round of a major refactoring, goal is to use Agile coding practices

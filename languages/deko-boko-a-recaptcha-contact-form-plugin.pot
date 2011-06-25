@@ -1,128 +1,125 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-17 09:19-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/deko-boko-a-recaptcha-contact-"
+"form-plugin\n"
+"POT-Creation-Date: 2011-06-25 15:41:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: 8bit\n"
 
-#: display/options-main.php:20
+#: display/settings.php:7
 msgid "Support Deko Boko"
 msgstr ""
 
-#: display/options-main.php:21
+#: display/settings.php:8
 msgid "Deko Boko Help"
 msgstr ""
 
-#: display/options-main.php:25
+#: display/settings.php:12
 msgid "Settings"
 msgstr ""
 
-#: display/options-main.php:37
+#: display/settings.php:24
 msgid "reCAPTCHA public key:"
 msgstr ""
 
-#: display/options-main.php:39
+#: display/settings.php:26
 msgid ""
 "If you are already using the WP-reCAPTCHA plugin for comments, Deko Boko "
 "will use the API key you've already set. If you are not using the WP-"
 "reCAPTCHA plugin, then you need to get a"
 msgstr ""
 
-#: display/options-main.php:40
+#: display/settings.php:27
 msgid "free reCAPTCHA API key for your site"
 msgstr ""
 
-#: display/options-main.php:40
+#: display/settings.php:27
 msgid "and enter the public and private keys here."
 msgstr ""
 
-#: display/options-main.php:44
+#: display/settings.php:31
 msgid "reCAPTCHA private key:"
 msgstr ""
 
-#: display/options-main.php:49
+#: display/settings.php:36
 msgid "Recipient email address:"
 msgstr ""
 
-#: display/options-main.php:51
+#: display/settings.php:38
 msgid ""
 "Where to email submissions from the the contact form. Separate multiple "
 "addresses with commas."
 msgstr ""
 
-#: display/options-main.php:55
+#: display/settings.php:42
 msgid "Email subject line:"
 msgstr ""
 
-#: display/options-main.php:57
+#: display/settings.php:44
 msgid ""
 "An optional subject line that will appear on emails sent to you through the "
 "contact form. If you also include a subject line in the contact form, then "
 "the subject provided by users will be appended to this subject line."
 msgstr ""
 
-#: display/options-main.php:61
+#: display/settings.php:48
 msgid "Welcome message:"
 msgstr ""
 
-#: display/options-main.php:63
+#: display/settings.php:50
 msgid ""
 "An optional message to display at the top of the contact form. You can "
 "include HTML."
 msgstr ""
 
-#: display/options-main.php:67
+#: display/settings.php:54
 msgid "Success message:"
 msgstr ""
 
-#: display/options-main.php:69
+#: display/settings.php:56
 msgid ""
 "The message to show users after they successfully submit the contact form. "
 "You can include HTML."
 msgstr ""
 
-#: display/options-main.php:73
+#: display/settings.php:60
 msgid "\"CC Me\" header:"
 msgstr ""
 
-#: display/options-main.php:75
+#: display/settings.php:62
 msgid ""
 "If a user checks the 'CC Me' box, this text will appear at the top of the "
 "message that's sent to them. If you use the special word BLOGNAME in all "
 "capital letters, Deko Boko will substitute the name of your blog. If you use "
 "DATETIME it will substitute the date and time the email was sent. HTML is "
-"not currently supported."
+"not supported."
 msgstr ""
 
-#: display/options-main.php:79
+#: display/settings.php:66
 msgid "\"CC Me\" footer:"
 msgstr ""
 
-#: display/options-main.php:81
+#: display/settings.php:68
 msgid ""
 "If a user checks the 'CC Me' box, this text will appear at the bottom of the "
 "message that's sent to them. If you use the special word BLOGNAME in all "
 "capital letters, Deko Boko will substitute the name of your blog. If you use "
 "DATETIME it will substitute the date and time the email was sent. HTML is "
-"not currently supported."
+"not supported."
 msgstr ""
 
-#: display/options-main.php:85
+#: display/settings.php:72
 msgid "Page Slugs/IDs:"
 msgstr ""
 
-#: display/options-main.php:87
+#: display/settings.php:74
 msgid ""
 "Optional: enter the slugs or IDs for the pages/posts where you use Deko "
 "Boko, separated by line breaks. This lets Deko Boko know on which pages to "
@@ -131,218 +128,170 @@ msgid ""
 "Edit Pages screen."
 msgstr ""
 
-#: display/options-main.php:91
+#: display/settings.php:78
 msgid "reCAPTCHA theme:"
 msgstr ""
 
-#: display/options-main.php:93
+#: display/settings.php:80
 msgid "red"
 msgstr ""
 
-#: display/options-main.php:94
+#: display/settings.php:81
 msgid "white"
 msgstr ""
 
-#: display/options-main.php:95
+#: display/settings.php:82
 msgid "blackglass"
 msgstr ""
 
-#: display/options-main.php:96
+#: display/settings.php:83
 msgid "clean"
 msgstr ""
 
-#: display/options-main.php:97
+#: display/settings.php:84
 msgid "custom"
 msgstr ""
 
-#: display/options-main.php:99
+#: display/settings.php:86
 msgid ""
 "'Red' is the default theme. Activating the 'clean' theme allows you to "
 "adjust the reCAPTCHA widget's colors - see dekoboko.css for the classes."
 msgstr ""
 
-#: display/options-main.php:99
+#: display/settings.php:86
 msgid "You can preview the themes here"
 msgstr ""
 
-#: display/options-main.php:99
+#: display/settings.php:86
 msgid ""
 "'Custom' is for advanced users only, who want to change the layout of the "
 "reCAPTCHA widget - see the"
 msgstr ""
 
-#: display/options-main.php:99
+#: display/settings.php:86
 msgid "reCAPTCHA Client API Documentation"
 msgstr ""
 
-#: display/options-main.php:103
+#: display/settings.php:90
 msgid "reCAPTCHA language:"
 msgstr ""
 
-#: display/options-main.php:105
+#: display/settings.php:92
 msgid "English"
 msgstr ""
 
-#: display/options-main.php:106
+#: display/settings.php:93
 msgid "Dutch"
 msgstr ""
 
-#: display/options-main.php:107
+#: display/settings.php:94
 msgid "French"
 msgstr ""
 
-#: display/options-main.php:108
+#: display/settings.php:95
 msgid "German"
 msgstr ""
 
-#: display/options-main.php:109
+#: display/settings.php:96
 msgid "Portuguese"
 msgstr ""
 
-#: display/options-main.php:110
+#: display/settings.php:97
 msgid "Russian"
 msgstr ""
 
-#: display/options-main.php:111
+#: display/settings.php:98
 msgid "Spanish"
 msgstr ""
 
-#: display/options-main.php:112
+#: display/settings.php:99
 msgid "Turkish"
 msgstr ""
 
-#: display/options-main.php:118
+#: display/settings.php:105
 msgid "Save Options"
 msgstr ""
 
-#: display/options-main.php:122 display/options-main.php:140
-msgid "Uninstall Deko Boko"
-msgstr ""
-
-#: display/options-main.php:129
-msgid "Uninstall Deko Boko?"
-msgstr ""
-
-#: display/options-main.php:131
-msgid ""
-"After uninstalling, you can deactivate Deko Boko on your plugins management "
-"page."
-msgstr ""
-
-#: display/options-main.php:134
-msgid "Remove reCAPTCHA API key?"
-msgstr ""
-
-#: display/options-main.php:136
-msgid ""
-"Deko Boko shares its reCAPTCHA API key with the WP-reCAPTCHA plugin. Do not "
-"check this box if you are using the WP-reCAPTCHA plugin for comments."
-msgstr ""
-
-#: display/options-main.php:140
-msgid "Are you sure you want to uninstall Deko Boko?"
-msgstr ""
-
-#: display/contact-form.php:22
+#: display/contact-form.php:8
 msgid "Fields marked with "
 msgstr ""
 
-#: display/contact-form.php:22
+#: display/contact-form.php:8
 msgid "are required"
 msgstr ""
 
-#: display/contact-form.php:27
+#: display/contact-form.php:13
 msgid "Name"
 msgstr ""
 
-#: display/contact-form.php:32
+#: display/contact-form.php:18
 msgid "Email"
 msgstr ""
 
-#: display/contact-form.php:37
+#: display/contact-form.php:23
 msgid "Subject"
 msgstr ""
 
-#: display/contact-form.php:42
+#: display/contact-form.php:28
 msgid "Message"
 msgstr ""
 
-#: display/contact-form.php:47
+#: display/contact-form.php:33
 msgid "CC Me"
 msgstr ""
 
-#: display/contact-form.php:49
+#: display/contact-form.php:35
 msgid "Check this box to send a copy of your message to yourself."
 msgstr ""
 
-#: display/contact-form.php:52
+#: display/contact-form.php:38
 msgid "Are You Human?"
 msgstr ""
 
-#: display/contact-form.php:53
+#: display/contact-form.php:39
 msgid "What's this?"
 msgstr ""
 
-#: display/contact-form.php:60
+#: display/contact-form.php:46
 msgid "Send Message"
 msgstr ""
 
-#: DekoBoko.php:194
-msgid ""
-"Deko Boko has been uninstalled. You can now deactivate Deko Boko on your "
-"plugins management page."
-msgstr ""
-
-#: DekoBoko.php:198
-msgid "Uninstall of Deko Boko failed. Database error:"
-msgstr ""
-
-#: DekoBoko.php:204
-msgid ""
-"You must check the 'Uninstall Deko Boko' checkbox to confirm you want to "
-"uninstall Deko Boko"
-msgstr ""
-
-#: DekoBoko.php:231
+#: DekoBoko.php:100
 msgid "Deko Boko settings saved."
 msgstr ""
 
-#: DekoBoko.php:304
-msgid "Failed call to wp_mail() - unable to send message"
-msgstr ""
-
-#: DekoBoko.php:330
+#: DekoBoko.php:150
 msgid "Sorry, there were errors in your submission. Please try again."
 msgstr ""
 
-#: DekoBoko.php:385
-msgid "ReCAPTCHA error"
-msgstr ""
-
-#: DekoBoko.php:386
-msgid "your captcha response was incorrect - please try again"
-msgstr ""
-
-#: DekoBoko.php:390
+#: DekoBoko.php:185
 msgid "Invalid Nonce"
 msgstr ""
 
-#: DekoBoko.php:395 DekoBoko.php:399
+#: DekoBoko.php:192
+msgid "ReCAPTCHA error"
+msgstr ""
+
+#: DekoBoko.php:193
+msgid "your captcha response was incorrect - please try again"
+msgstr ""
+
+#: DekoBoko.php:198 DekoBoko.php:202
 msgid "header contains malicious data"
 msgstr ""
 
-#: DekoBoko.php:405
+#: DekoBoko.php:208
 msgid "Required field"
 msgstr ""
 
-#: DekoBoko.php:406
+#: DekoBoko.php:209
 msgid "is blank"
 msgstr ""
 
-#: DekoBoko.php:413
+#: DekoBoko.php:216
 msgid "is not a valid email address"
 msgstr ""
 
-#: DekoBoko.php:496
+#: DekoBoko.php:260
 msgid "Message from "
 msgstr ""
