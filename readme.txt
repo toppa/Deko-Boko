@@ -60,6 +60,10 @@ Why write yet another email contact form for WordPress? There are two things tha
 * Please go to [the Deko Boko page on my site](http://www.toppa.com/deko-boko-wordpress-plugin) for a Usage Guide and other information.
 * For troubleshooting help, please [post a comment in my latest post on WordPress plugins](http://www.toppa.com/category/technical/wordpress-plugins/).
 
+== Screenshots ==
+
+1. Example contact form
+
 == Changelog ==
 
 = 1.3.1=
