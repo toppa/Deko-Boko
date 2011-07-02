@@ -4,7 +4,7 @@ Plugin Name: Deko Boko
 Plugin URI: http://www.toppa.com/deko-boko-wordpress-plugin/
 Description: An easily extensible contact form, using re-captcha
 Author: Michael Toppa
-Version: 1.3.1
+Version: 1.3.2
 Author URI: http://www.toppa.com
 */
 

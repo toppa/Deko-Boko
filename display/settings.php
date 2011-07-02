@@ -23,8 +23,8 @@
     <tr valign="top">
     <td nowrap="nowrap"><?php _e("reCAPTCHA public key:", 'dekoboko'); ?></td>
     <td nowrap="nowrap"><input type="text" name="dekoboko_options[public_key]" value="<?php echo $this->settings['public_key']; ?>" size="40" /></td>
-    <td rowspan="2"><strong>&laquo;</strong> <?php _e("If you are already using the WP-reCAPTCHA plugin for comments, Deko Boko will use the API key you've already set. If you are not using the WP-reCAPTCHA plugin, then you need to get a", 'dekoboko'); ?>
-    <a href="<?php echo recaptcha_get_signup_url($siteUrl['host'], 'wordpress');?>" target="_blank"><?php _e('free reCAPTCHA API key for your site', 'dekoboko'); ?></a> <?php _e('and enter the public and private keys here.', 'dekoboko'); ?></td>
+    <td rowspan="2"><strong>&laquo;</strong> <?php _e("If you are already using the WP-reCAPTCHA plugin for comments, Deko Boko will copy the API key you've already set. If you are not using the WP-reCAPTCHA plugin for comments, then you need to get a", 'dekoboko'); ?>
+    <a href="<?php echo RecaptchaForDekoBoko::recaptcha_get_signup_url($_SERVER['HTTP_HOST'], 'wordpress');?>" target="_blank"><?php _e('free reCAPTCHA API key for your site', 'dekoboko'); ?></a> <?php _e('and enter the public and private keys here.', 'dekoboko'); ?></td>
     </tr>
 
     <tr valign="top">

@@ -1,7 +1,7 @@
 <?php
 
 class DekoBoko {
-    private $version = '1.3.1';
+    private $version = '1.3.2';
     private $settings;
     private $functionsFacade;
     private $defaultTemplate = 'contact-form.php';
@@ -99,9 +99,6 @@ class DekoBoko {
             $this->functionsFacade->setSetting('dekoboko_options', $this->settings);
             $message = __("Deko Boko settings saved.", 'dekoboko');
         }
-
-        // for linking to the recaptcha site for key signup, in the settings form
-        $siteUrl = parse_url($this->functionsFacade->getSetting('site_url'));
 
         ob_start();
         require_once($this->dir . '/display/settings.php');

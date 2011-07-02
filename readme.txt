@@ -3,8 +3,8 @@ Contributors: toppa
 Donate link: http://www.toppa.com/deko-boko-wordpress-plugin
 Tags: email, contact, spam, captcha
 Requires at least: 3.0
-Tested up to: 3.1.3
-Stable tag: 1.3.1
+Tested up to: 3.1.4
+Stable tag: 1.3.2
 
 Deko Boko is a simple but highly extensible contact form, integrating reCAPTCHA for handling spam.
 
@@ -40,7 +40,7 @@ Why write yet another email contact form for WordPress? There are two things tha
 
 * You can have Deko Boko load its stylesheet only on pages where you use the Deko Boko contact form, so it won't be loaded unnecessarily on other pages.
 
-* Localization support: a dekoboko.pot file is included to enable translations to other languages (French and Spanish translations are included, but have not yet been updated for version 1.3).
+* Localization support: a dekoboko.pot file is included to enable translations to other languages.
 
 * A sample form is included, to help you make your own custom contact form.
 
@@ -65,6 +65,9 @@ Why write yet another email contact form for WordPress? There are two things tha
 1. Example contact form
 
 == Changelog ==
+
+= 1.3.2 =
+* Bug fix: on Settings page, correctly call recaptcha_get_signup_url() function from local version of RecaptchaForDekoBoko class
 
 = 1.3.1 =
 * Bug fix: correctly call recaptchalib functions from local version of RecaptchaForDekoBoko class
