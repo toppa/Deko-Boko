@@ -70,7 +70,7 @@
 
     <tr valign="top">
     <td nowrap="nowrap"><?php _e("Page Slugs/IDs:", 'dekoboko'); ?></td>
-    <td nowrap="nowrap"><textarea name="dekoboko_options[pages]" cols="40" rows="5"><?php echo implode("\n", $this->settings['pages']); ?></textarea></td>
+    <td nowrap="nowrap"><textarea name="dekoboko_options[pages]" cols="40" rows="5"><?php if (is_array($this->settings['pages'])) echo implode("\n", $this->settings['pages']); ?></textarea></td>
     <td><strong>&laquo;</strong> <?php _e("Optional: enter the slugs or IDs for the pages/posts where you use Deko Boko, separated by line breaks. This lets Deko Boko know on which pages to load its stylesheet (otherwise the stylesheet is loaded on every page). You can find the slug for a page by clicking 'Quick Edit' on your Edit Posts or Edit Pages screen.", 'dekoboko'); ?></td>
     </tr>
 
