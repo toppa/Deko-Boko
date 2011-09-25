@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version:  \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/deko-boko-a-recaptcha-contact-"
 "form-plugin\n"
-"POT-Creation-Date: 2011-07-02 13:27:47+00:00\n"
+"POT-Creation-Date: 2011-09-25 01:29:48+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,44 +13,48 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: DekoBoko.php:100
-msgid "Deko Boko settings saved."
+#: display/contact-form.php:8
+msgid "Fields marked with "
 msgstr ""
 
-#: DekoBoko.php:147
-msgid "Sorry, there were errors in your submission. Please try again."
+#: display/contact-form.php:8
+msgid "are required"
 msgstr ""
 
-#: DekoBoko.php:182
-msgid "Invalid Nonce"
+#: display/contact-form.php:13
+msgid "Name"
 msgstr ""
 
-#: DekoBoko.php:189
-msgid "ReCAPTCHA error"
+#: display/contact-form.php:18
+msgid "Email"
 msgstr ""
 
-#: DekoBoko.php:190
-msgid "your captcha response was incorrect - please try again"
+#: display/contact-form.php:23
+msgid "Subject"
 msgstr ""
 
-#: DekoBoko.php:195 DekoBoko.php:199
-msgid "header contains malicious data"
+#: display/contact-form.php:28
+msgid "Message"
 msgstr ""
 
-#: DekoBoko.php:205
-msgid "Required field"
+#: display/contact-form.php:33
+msgid "CC Me"
 msgstr ""
 
-#: DekoBoko.php:206
-msgid "is blank"
+#: display/contact-form.php:35
+msgid "Check this box to send a copy of your message to yourself."
 msgstr ""
 
-#: DekoBoko.php:213
-msgid "is not a valid email address"
+#: display/contact-form.php:38
+msgid "Are You Human?"
 msgstr ""
 
-#: DekoBoko.php:257
-msgid "Message from "
+#: display/contact-form.php:39
+msgid "What's this?"
+msgstr ""
+
+#: display/contact-form.php:46
+msgid "Send Message"
 msgstr ""
 
 #: display/settings.php:7
@@ -252,46 +256,54 @@ msgstr ""
 msgid "Save Options"
 msgstr ""
 
-#: display/contact-form.php:8
-msgid "Fields marked with "
+#: DekoBoko.php:100
+msgid "Deko Boko settings saved."
 msgstr ""
 
-#: display/contact-form.php:8
-msgid "are required"
+#: DekoBoko.php:147
+msgid "Sorry, there were errors in your submission. Please try again."
 msgstr ""
 
-#: display/contact-form.php:13
-msgid "Name"
+#: DekoBoko.php:182
+msgid "Invalid Nonce"
 msgstr ""
 
-#: display/contact-form.php:18
-msgid "Email"
+#: DekoBoko.php:189
+msgid "ReCAPTCHA error"
 msgstr ""
 
-#: display/contact-form.php:23
-msgid "Subject"
+#: DekoBoko.php:190
+msgid "your captcha response was incorrect - please try again"
 msgstr ""
 
-#: display/contact-form.php:28
-msgid "Message"
+#: DekoBoko.php:195 DekoBoko.php:199
+msgid "header contains malicious data"
 msgstr ""
 
-#: display/contact-form.php:33
-msgid "CC Me"
+#: DekoBoko.php:205
+msgid "Required field"
 msgstr ""
 
-#: display/contact-form.php:35
-msgid "Check this box to send a copy of your message to yourself."
+#: DekoBoko.php:206
+msgid "is blank"
 msgstr ""
 
-#: display/contact-form.php:38
-msgid "Are You Human?"
+#: DekoBoko.php:213
+msgid "is not a valid email address"
 msgstr ""
 
-#: display/contact-form.php:39
-msgid "What's this?"
+#: DekoBoko.php:257
+msgid "Message from "
 msgstr ""
 
-#: display/contact-form.php:46
-msgid "Send Message"
+#: start.php:27
+msgid "To activate Deko Boko you need to first install"
+msgstr ""
+
+#: start.php:33
+msgid "You must have at least PHP 5.1.2 to use Deko Boko"
+msgstr ""
+
+#: start.php:37
+msgid "You must have at least WordPress 3.0 to use Deko Boko"
 msgstr ""
