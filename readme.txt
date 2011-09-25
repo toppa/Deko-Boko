@@ -16,7 +16,7 @@ Deko Boko is a simple but highly extensible contact form, integrating reCAPTCHA 
 
 Why write yet another email contact form for WordPress? There are two things that make Deko Boko unique:
 
-1. It uses [reCAPTCHA](http://recaptcha.net/) for handling spam. reCAPTCHA is a great project that uses data from its captcha forms to help digitize books.
+1. It uses [reCAPTCHA](http://www.google.com/recaptcha) for handling spam. reCAPTCHA is a great project that uses data from its captcha forms to help digitize books.
 
 2. The Deko Boko contact form can be extended any way you want, but without the need for complicated admin menus. If you're comfortable editing HTML, then you can add any number and any type of input fields to the contact form. You can control which fields are optional or required. When the form is submitted, any fields that you added will have their data included in the body of the email.
 

@@ -10,6 +10,7 @@ Author URI: http://www.toppa.com
 
 $dekoBokoToppaLibsDir = dirname(__FILE__) . '/../toppa-plugin-libraries-for-wordpress';
 register_activation_hook(__FILE__, 'dekoBokoActivate');
+load_plugin_textdomain('dekoboko', false, basename(dirname(__FILE__)) . '/languages/');
 
 if (file_exists($dekoBokoToppaLibsDir)) {
     require_once($dekoBokoToppaLibsDir . '/ToppaAutoLoaderWp.php');

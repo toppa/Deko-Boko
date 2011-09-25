@@ -17,8 +17,6 @@ class DekoBoko {
 
     function run() {
         $this->settings = $this->functionsFacade->getSetting('dekoboko_options');
-        $pathToTranslationFiles = $this->functionsFacade->getPluginDirectoryName(__FILE__) . '/languages/';
-        load_plugin_textdomain('dekoboko', false, $pathToTranslationFiles);
         add_action('admin_menu', array($this, 'initAdminMenus'));
         add_shortcode('dekoboko', array($this, 'handleContactPage'));
         add_action('template_redirect', array($this, 'getHeadTags'));
