@@ -14,10 +14,10 @@ load_plugin_textdomain('dekoboko', false, basename(dirname(__FILE__)) . '/langua
 
 if (file_exists($dekoBokoToppaLibsDir)) {
     require_once($dekoBokoToppaLibsDir . '/ToppaAutoLoaderWp.php');
-    $toppaAutoLoader = new ToppaAutoLoaderWp('/toppa-plugin-libraries-for-wordpress');
+    $dekoBokoToppaAutoLoader = new ToppaAutoLoaderWp('/toppa-plugin-libraries-for-wordpress');
     $dekoBokoAutoLoader = new ToppaAutoLoaderWp('/deko-boko-a-recaptcha-contact-form-plugin');
-    $functionsFacade = new ToppaFunctionsFacadeWp();
-    $dekoBoko = new DekoBoko($functionsFacade);
+    $dekoBokoFunctionsFacade = new ToppaFunctionsFacadeWp();
+    $dekoBoko = new DekoBoko($dekoBokoFunctionsFacade);
     $dekoBoko->run();
 }
 
