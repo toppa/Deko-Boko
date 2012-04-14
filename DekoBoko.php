@@ -1,7 +1,7 @@
 <?php
 
 class DekoBoko {
-    private $version = '1.3.2';
+    private $version = '1.3.5';
     private $settings;
     private $functionsFacade;
     private $defaultTemplate = 'contact-form.php';
