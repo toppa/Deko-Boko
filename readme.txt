@@ -10,6 +10,8 @@ Deko Boko is a simple but highly extensible contact form, integrating reCAPTCHA 
 
 == Description ==
 
+**I am currently no longer developing or supporting this plugin. I may resume development and support in the future, but I'm not sure when.**
+
 **Installation of [Toppa Plugin Libraries for WordPress](http://wordpress.org/extend/plugins/toppa-plugin-libraries-for-wordpress/) is required. Please download and activate it before installing Deko Boko.**
 
 **Why another contact form plugin?**
